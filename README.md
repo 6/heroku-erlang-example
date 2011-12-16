@@ -10,13 +10,14 @@ Install heroku gem:
 
 ### install
 
-* Clone this repo with `git clone git://github.com/6/heroku-erlang-example.git`
-* `cd` into it, and then:
+Clone this repo with `git clone git://github.com/6/heroku-erlang-example.git`
+
+`cd` into it, and then:
 
     make
     ./start.sh
     
-This will start the web server locally at http://localhost:8000
+This will start the web server locally at [http://localhost:8000](http://localhost:8000)
 
 ### running on heroku with [erlang buildpack](https://github.com/heroku/heroku-buildpack-erlang)
 
