@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, heroku-erlang-example,
+ [
+  {description, "heroku-erlang-example"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { heroku-erlang-example_app, []}},
+  {env, []}
+ ]}.
