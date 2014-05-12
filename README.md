@@ -15,9 +15,9 @@ Clone this repo with `git clone git://github.com/6/heroku-erlang-example.git`
 `cd` into it, and then:
 
     make
-    ./start.sh
+    foreman start
 
-This will start the web server locally at [http://localhost:8000](http://localhost:8000)
+This will start the web server locally at [http://localhost:5000](http://localhost:5000)
 
 ### running on heroku with [erlang buildpack](https://github.com/archaelus/heroku-buildpack-erlang)
 
