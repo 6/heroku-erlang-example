@@ -1,5 +1,5 @@
 ### prereqs
-[See directions here](http://wiki.basho.com/Installing-Erlang.html) or use [homebrew](http://mxcl.github.com/homebrew/) if you're on a Mac:
+[See directions here](http://docs.basho.com/riak/latest/ops/building/installing/erlang/) or use [homebrew](http://mxcl.github.com/homebrew/) if you're on a Mac:
 
     brew install erlang
 
