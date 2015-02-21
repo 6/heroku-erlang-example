@@ -1,0 +1,12 @@
+{
+  "name": "Heroku Erlang Example App",
+  "description": "A simple Erlang app deployable to Heroku",
+  "keywords": [
+    "heroku",
+    "erlang"
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-erlang.git"
+  },
+  "success_url": "/"
+}
