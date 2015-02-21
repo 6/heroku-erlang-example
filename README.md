@@ -19,9 +19,9 @@ Clone this repo with `git clone git://github.com/6/heroku-erlang-example.git`
 
 This will start the web server locally at [http://localhost:5000](http://localhost:5000)
 
-### running on heroku with [erlang buildpack](https://github.com/archaelus/heroku-buildpack-erlang)
+### running on heroku with Heroku's [erlang buildpack](https://github.com/heroku/heroku-buildpack-erlang)
 
     heroku create
-    heroku config:add BUILDPACK_URL=https://github.com/archaelus/heroku-buildpack-erlang.git
+    heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-erlang.git
 
 Then just push it to heroku with `git push heroku master`
