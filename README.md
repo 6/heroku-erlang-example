@@ -25,3 +25,6 @@ This will start the web server locally at [http://localhost:5000](http://localho
     heroku config:add BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-erlang.git
 
 Then just push it to heroku with `git push heroku master`
+
+Or just use this button to deploy your own copy to Heroku:
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
