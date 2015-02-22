@@ -3,10 +3,7 @@
 
     brew install erlang
 
-Install heroku gem:
-
-    gem install heroku
-
+Then install [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ### install
 
